@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESDnevnik2", "ESDnevnik2\ESDnevnik2.csproj", "{EEF0E873-2C51-474F-AD96-884611265705}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEF0E873-2C51-474F-AD96-884611265705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF0E873-2C51-474F-AD96-884611265705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF0E873-2C51-474F-AD96-884611265705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF0E873-2C51-474F-AD96-884611265705}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A34BCAA4-0DB8-47A3-9783-A46C3F92DEC0}
+	EndGlobalSection
+EndGlobal
