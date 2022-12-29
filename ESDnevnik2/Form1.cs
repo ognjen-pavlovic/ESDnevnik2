@@ -124,9 +124,55 @@ namespace ESDnevnik2
             {
                 MessageBox.Show(Greska.Message);
                 DataLoad();
+                Loader();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string delete = "DELETE FROM osoba WHERE id = " + textBox1.Text;
+            SqlConnection veza = Konekcija.Connect();
+            SqlCommand komanda = new SqlCommand(delete, veza);
+            try
+            {
+                veza.Open();
+                komanda.ExecuteNonQuery();
+                veza.Close();
+            }
+            catch (Exception Greska)
+            {
+                MessageBox.Show(Greska.Message);
+                DataLoad();
                 slog = tabela.Rows.Count - 1;
                 Loader();
             }
+        }
+        dodaj nova;
+        void formisclosed(object sender, FormClosedEventArgs e)
+        {
+            string add = nova.Dodaj;
+            SqlConnection veza = Konekcija.Connect();
+            SqlCommand komanda = new SqlCommand(add, veza);
+            try
+            {
+                veza.Open();
+                komanda.ExecuteNonQuery();
+                veza.Close();
+            }
+            catch (Exception Greska)
+            {
+                MessageBox.Show(Greska.Message);
+                DataLoad();
+                slog = tabela.Rows.Count - 1;
+                Loader();
+            }
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+            nova = new dodaj(slog);
+            nova.Show();
+            nova.FormClosed += new FormClosedEventHandler(formisclosed);
+            
         }
     }
 }

@@ -193,6 +193,7 @@ namespace ESDnevnik2
             this.button1.TabIndex = 28;
             this.button1.Text = "Brisi";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -236,6 +237,7 @@ namespace ESDnevnik2
             this.button5.TabIndex = 32;
             this.button5.Text = "Dodaj";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
