@@ -11,7 +11,7 @@ namespace ESDnevnik2
     {
         public static SqlConnection Connect()
         {
-            SqlConnection veza = new SqlConnection("Data Source=DESKTOP-S0KU6N9\\SQLEXPRESS;Initial Catalog=ednevnik;Integrated Security=true");
+            SqlConnection veza = new SqlConnection("Data Source=INF_4_05\\SQLPBG;Initial Catalog=ednevnik;Integrated Security=true");
             return veza;
         }
 
