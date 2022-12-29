@@ -41,8 +41,6 @@ namespace ESDnevnik2
             this.label5 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -151,25 +149,9 @@ namespace ESDnevnik2
             this.label6.TabIndex = 18;
             this.label6.Text = "E-mail";
             // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(362, 645);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(210, 26);
-            this.textBox7.TabIndex = 23;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(238, 649);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(42, 20);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "Sifra";
-            // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(362, 720);
+            this.textBox8.Location = new System.Drawing.Point(362, 645);
             this.textBox8.Name = "textBox8";
             this.textBox8.ReadOnly = true;
             this.textBox8.Size = new System.Drawing.Size(210, 26);
@@ -178,7 +160,7 @@ namespace ESDnevnik2
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(238, 726);
+            this.label8.Location = new System.Drawing.Point(238, 651);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(51, 20);
             this.label8.TabIndex = 26;
@@ -275,8 +257,6 @@ namespace ESDnevnik2
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox5);
@@ -311,8 +291,6 @@ namespace ESDnevnik2
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button1;

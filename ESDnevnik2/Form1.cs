@@ -34,7 +34,6 @@ namespace ESDnevnik2
             textBox4.Text = tabela.Rows[slog]["adresa"].ToString();
             textBox5.Text = tabela.Rows[slog]["jmbg"].ToString();
             textBox6.Text = tabela.Rows[slog]["email"].ToString();
-            textBox7.Text = tabela.Rows[slog]["pass"].ToString();
             if (tabela.Rows[slog]["uloga"].ToString() == "1")
             {
                 textBox8.Text = "Ucenik";
@@ -109,8 +108,7 @@ namespace ESDnevnik2
             update = update + "prezime = '" + textBox3.Text + "', ";
             update = update + "adresa = '" + textBox4.Text + "', ";
             update = update + "jmbg = '" + textBox5.Text + "', ";
-            update = update + "email = '" + textBox6.Text + "', ";
-            update = update + "pass = '" + textBox7.Text + "' ";
+            update = update + "email = '" + textBox6.Text + "' ";
             update = update + "WHERE id = " + textBox1.Text;
             SqlConnection veza = Konekcija.Connect();
             SqlCommand komanda = new SqlCommand(update, veza);
